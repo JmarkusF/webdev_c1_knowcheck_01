@@ -125,6 +125,24 @@ body {
     text-align: center;
 }
 
+.contact-container {
+    background: #29326a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.contact-content {
+    color: #F1F1F1;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
 /* Links and Link Buttons
 ========================================================================== */
 a {
@@ -207,7 +225,12 @@ a:hover, a:active {
     color: #F1F1F1;
     border: 2px solid #74b44a;
 }
-
+.contact-content a:visited {
+    color:darkorchid  
+}
+.contact-content a {
+    color:darkcyan
+}
 
 
 /* Typography
